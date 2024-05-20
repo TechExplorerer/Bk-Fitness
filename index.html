@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BK Fitness</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- icon link -->
+    <link rel="stylesheet" href="cl-icon/css/all.css" />
+    <!-- font -->
+    <link rel="stylesheet" href="Poppins/Poppins-Black.ttf" />
+    <!-- font -->
+    <link rel="stylesheet" href="Orbitron/Orbitron-VariableFont_wght.ttf" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>BK Fitness</h1>
+        </div>
+
+        <div class="humberger" id="humberger-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="menu" id="menu">
+          <li class="nav-links active-link" onclick="displayPage('home')">
+            Home
+          </li>
+          <li class="nav-links" onclick="displayPage('about')">About</li>
+          <li class="nav-links" onclick="displayPage('gallery')">gallery</li>
+          <li class="nav-links" onclick="displayPage('schedule')">schedule</li>
+          <li class="nav-links" onclick="displayPage('contact')">Contact Us</li>
+        </ul>
+
+        <button class="primary-btn non-display-content">Join Us</button>
+      </nav>
+    </header>
+
+    <main class="pages active-page" id="home">
+      <div class="home-section">
+        <div class="home-content">
+          <h1>The <span>Ultimate</span> Choice <br />for your health</h1>
+          <p>
+            Get ready to sweat it out and achieve your fitness goals with our
+            high-energy fitness classes! Our classes are designed to cater to
+            all fitness levels and provide a fun and motivating environment to
+            help you reach your peak performance.
+          </p>
+          <button class="primary-btn" onclick="displayPage('about')">
+            See More
+          </button>
+        </div>
+      </div>
+
+      <section class="choose-us">
+        <div class="container">
+          <div class="section-heading">
+            <p class="sub-heading">Why Choose Us?</p>
+            <h1>PUSH YOUR LIMITS FORWARD</h1>
+          </div>
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="grid-icon">
+                <span class="icon-bg"
+                  ><i class="fa-solid fa-dumbbell"></i
+                ></span>
+              </div>
+              <div class="grid-detail">
+                <h2>Modern Equipment</h2>
+                <p>
+                  Experience our high-tech fitness equipment, crafted to
+                  optimize your workouts and elevate your training routine.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="grid-icon">
+                <span class="icon-bg"><i class="fa-solid fa-leaf"></i></span>
+              </div>
+              <div class="grid-detail">
+                <h2>Healthy Nutrition Plan</h2>
+                <p>
+                  Our nutrition plans are tailored to fuel your body, enhancing
+                  your performance and supporting your wellness goals.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="grid-icon">
+                <span class="icon-bg"
+                  ><i class="fa-solid fa-weight-hanging"></i
+                ></span>
+              </div>
+              <div class="grid-detail">
+                <h2>Advanced Workout</h2>
+                <p>
+                  Utilize our cutting-edge gear and machines, designed to
+                  maximize performance and support your fitness journey.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="grid-icon">
+                <span class="icon-bg"
+                  ><i class="fa-solid fa-heart-pulse"></i
+                ></span>
+              </div>
+              <div class="grid-detail">
+                <h2>Unique to Your Needs</h2>
+                <p>
+                  Our personalized approach ensures that every workout and plan
+                  is uniquely tailored to your specific goals and needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <div class="container">
+          <div class="info-content">
+            <div class="info-text">
+              <h1>FIt for your lifestyle</h1>
+              <p>
+                Wake up with a sunrise meditation, <br />
+                sweat it out with lunchtime HIIT, or unwind with an evening
+                flow.
+              </p>
+            </div>
+            <div class="info-img-container">
+              <div class="img-bg">
+                <img src="image/section-two-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="instructor-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="sub-heading">What We Offer?</p>
+            <h1>Our Service</h1>
+          </div>
+          <div class="grid-container trainer-grid">
+            <div class="grid-card">
+              <div class="grid-img-content">
+                <img src="image/body-building.jpg" alt="" />
+              </div>
+              <div class="grid-card-content">
+                <h3>BUILDING BODY</h3>
+                <p>Enhancing your physique requires dedication and effort.</p>
+              </div>
+            </div>
+            <div class="grid-card">
+              <div class="grid-img-content">
+                <img src="image/mucle-gain.jpg" alt="" />
+              </div>
+              <div class="grid-card-content">
+                <h3>MUSCLE GAIN</h3>
+                <p>
+                  Increasing muscle mass involves proper training and nutrition.
+                </p>
+              </div>
+            </div>
+            <div class="grid-card">
+              <div class="grid-img-content">
+                <img src="image/weight-lose.jpg" alt="" />
+              </div>
+              <div class="grid-card-content">
+                <h3>WEIGHT LOSE</h3>
+                <p>
+                  Losing weight requires a balanced diet and regular exercise.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="video-container video-col-heights">
+        <div class="video-content video-col-heights" id="video-content">
+          <img src="image/video-thmbnail.png" class="video-img" />
+          <div class="video-img-layer"></div>
+          <div class="icon-layer">
+            <i class="fa-solid fa-play play-icon" id="play-icon"></i>
+          </div>
+        </div>
+        <video
+          src="image/fitness-video-2.mp4"
+          controls
+          class="video"
+          id="video"
+        ></video>
+      </div>
+
+      <section class="review-section">
+        <div class="swiper mySwiper">
+          <div class="section-heading">
+            <p class="sub-heading">Testimonial</p>
+            <h1>Our Clients Say</h1>
+          </div>
+          <div class="swiper-container swiper-wrapper">
+            <div class="review-item swiper-slide">
+              <div class="review-profile">
+                <img src="image/profile-1.png" alt="" />
+                <div class="profile-text">
+                  <h3>John Deo</h3>
+                  <p>Gym Member</p>
+                </div>
+              </div>
+              <div class="review-msg">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.Fugiat praesentium saepe ab modi atque esse distinctio,
+                  at nemoipsa natus nihil consectetur quae officiis accusantium
+                  voluptateid totam dolorum omnis.
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-profile">
+                <img src="image/profile-2.png" alt="" />
+                <div class="profile-text">
+                  <h3>Lisa</h3>
+                  <p>Gym Member</p>
+                </div>
+              </div>
+              <div class="review-msg">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.Fugiat praesentium saepe ab modi atque esse distinctio,
+                  at nemoipsa natus nihil consectetur quae officiis accusantium
+                  voluptateid totam dolorum omnis.
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-profile">
+                <img src="image/profile-1.png" alt="" />
+                <div class="profile-text">
+                  <h3>John Deo</h3>
+                  <p>Gym Member</p>
+                </div>
+              </div>
+              <div class="review-msg">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.Fugiat praesentium saepe ab modi atque esse distinctio,
+                  at nemoipsa natus nihil consectetur quae officiis accusantium
+                  voluptateid totam dolorum omnis.
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-profile">
+                <img src="image/profile-2.png" alt="" />
+                <div class="profile-text">
+                  <h3>Lisa</h3>
+                  <p>Gym Member</p>
+                </div>
+              </div>
+              <div class="review-msg">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.Fugiat praesentium saepe ab modi atque esse distinctio,
+                  at nemoipsa natus nihil consectetur quae officiis accusantium
+                  voluptateid totam dolorum omnis.
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-profile">
+                <img src="image/profile-1.png" alt="" />
+                <div class="profile-text">
+                  <h3>John Deo</h3>
+                  <p>Gym Member</p>
+                </div>
+              </div>
+              <div class="review-msg">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.Fugiat praesentium saepe ab modi atque esse distinctio,
+                  at nemoipsa natus nihil consectetur quae officiis accusantium
+                  voluptateid totam dolorum omnis.
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div class="review-item swiper-slide">
+              <div class="review-profile">
+                <img src="image/profile-2.png" alt="" />
+                <div class="profile-text">
+                  <h3>Lisa</h3>
+                  <p>Gym Member</p>
+                </div>
+              </div>
+              <div class="review-msg">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.Fugiat praesentium saepe ab modi atque esse distinctio,
+                  at nemoipsa natus nihil consectetur quae officiis accusantium
+                  voluptateid totam dolorum omnis.
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="faq-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="sub-heading">Questions Usually Asked</p>
+            <h1>Frequently Asked Questions</h1>
+          </div>
+          <div class="faq-content">
+            <div class="faq">
+              <div class="question">
+                <h3>How much does a membership cost ?</h3>
+                <i class="fa-solid fa-minus remove"></i>
+                <i class="fa-solid fa-plus add"></i>
+              </div>
+              <div class="answer">
+                <p>
+                  We offer a variety of membership options to fit your needs and
+                  budget. Our membership starts from 1000 Rs to 1500 Rs per
+                  month which is affordable and convenience for the gym members.
+                </p>
+              </div>
+            </div>
+            <div class="faq">
+              <div class="question">
+                <h3>What kind of equipment do you have ?</h3>
+                <i class="fa-solid fa-minus remove"></i>
+                <i class="fa-solid fa-plus add"></i>
+              </div>
+              <div class="answer">
+                <p>
+                  We have a wide range of state-of-the-art cardio and strength
+                  training equipment to meet all your fitness needs.
+                </p>
+              </div>
+            </div>
+            <div class="faq">
+              <div class="question">
+                <h3>Do you offer any programs for people new to exercise ?</h3>
+                <i class="fa-solid fa-minus remove"></i>
+                <i class="fa-solid fa-plus add"></i>
+              </div>
+              <div class="answer">
+                <p>
+                  Absolutely! We offer a variety of programs designed for
+                  beginners, including personalized training plans and
+                  introductory group fitness classes.
+                </p>
+              </div>
+            </div>
+            <div class="faq">
+              <div class="question">
+                <h3>Are there locker rooms available ?</h3>
+                <i class="fa-solid fa-minus remove"></i>
+                <i class="fa-solid fa-plus add"></i>
+              </div>
+              <div class="answer">
+                <p>
+                  Yes, we have clean and well-maintained locker rooms for your
+                  convenience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="container frame non-display-content">
+      <div class="frame-container">
+        <div class="frame-text">
+          <h1>Are you ready to change ?</h1>
+          <p>
+            Challenge your strength. Stretch your body. Breathe easy. Our team
+            of world-class instructors will empower
+          </p>
+        </div>
+        <button class="frame-btn" onclick="displayPage('contact')">
+          Join Us
+        </button>
+      </div>
+    </div>
+
+    <div class="scroll-top-container">
+      <button id="scroll-btn" class="scroll-top-btn">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </div>
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <h1 class="footer-header">BK Fitness</h1>
+          <div class="footer-text">
+            <p>
+              Join us today and experience the transformative power of our
+              fitness classes. Don't wait to start your fitness journey. Take
+              the first step towards a healthier, stronger you. Let's sweat,
+              have fun, and make fitness a way of life together!
+            </p>
+          </div>
+          <div class="footer-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>© <a href="">BK Fitness</a> 2024. All rights reserved.</p>
+        <p>Designed and Developed by <a href="">AbdulWahid</a></p>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+  </body>
+</html>
